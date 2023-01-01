@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 public class PatikaStore {
     Scanner input = new Scanner(System.in);
@@ -15,7 +17,7 @@ public class PatikaStore {
             System.out.println("2- Phone Operations");
             System.out.println("3- List of Brands");
             System.out.println("0- Exit");
-            System.out.println("Select your choice");
+            System.out.print("Select your choice: ");
 
             int select = input.nextInt();
             while (select < 0 || select > 3){

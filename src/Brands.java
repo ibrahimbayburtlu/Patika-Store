@@ -1,3 +1,5 @@
+package src;
+
 import java.util.LinkedHashMap;
 
 public class Brands {
